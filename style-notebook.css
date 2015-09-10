@@ -1,0 +1,118 @@
+body.rise-enabled
+{
+    background: #fdf6e3;
+    background-color: #fdf6e3;
+}
+
+.rise-enabled #header
+{
+    display: none !important;
+}
+
+.reveal li
+{
+    list-style: none;
+}
+
+.reveal
+{
+    font-family: "Ubuntu";
+    font-size: 36px;
+    font-variant-ligatures: common-ligatures;
+    letter-spacing: inherit;
+}
+
+.reveal .rendered_html
+{
+    color: #586e75;
+}
+
+.reveal .rendered_html h1,
+.reveal .rendered_html h2,
+.reveal .rendered_html h3,
+.reveal .rendered_html h4,
+.reveal .rendered_html h5,
+.reveal .rendered_html h6
+{
+    text-shadow: none;
+    font-weight: normal;
+}
+
+.reveal .rendered_html h1
+{
+    font-size: 300%;
+}
+
+.reveal .rendered_html h2
+{
+    font-size: 200%;
+}
+
+.reveal .rendered_html p
+{
+    text-align: center;
+}
+
+.reveal .rendered_html img
+{
+    display: inline-block;
+}
+
+.reveal pre,
+.reveal code,
+.reveal .prompt
+{
+    font-family: "Ubuntu Mono", monospace !important;
+    font-size: 36px !important;
+    line-height: 1.2em;
+}
+
+.rise-enabled .reveal pre,
+.rise-enabled .reveal code
+{
+    padding: 0;
+    background: none;
+    color: #2aa198;
+    overflow: visible;
+}
+
+.reveal .prompt
+{
+    padding: 9px 0 0 0 !important;
+}
+
+.reveal em
+{
+  font-style: italic;
+  color: #b58900;
+}
+
+.reveal strong
+{
+  color: #d33682;
+}
+
+.reveal blockquote
+{
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+.reveal #slide-0-0 .rendered_html
+{
+    position: absolute;
+    top: 175px;
+    left: 100px;
+}
+
+
+/*
+ * Suppress error message triggered by Jupyter encoding bug
+ *
+ * http://stackoverflow.com/questions/2260815/weird-problem-with-input-encoding-in-ipython
+ */
+.output_stderr
+{
+    display: none;
+}
